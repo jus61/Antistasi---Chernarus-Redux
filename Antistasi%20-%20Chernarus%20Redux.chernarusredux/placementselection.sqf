@@ -123,7 +123,7 @@ if (visiblemap) then
 	_pos = [getPos fuego, 3, _rnd] call BIS_Fnc_relPos;
 	medic_ace_1 setPos _pos;
 	_rnd = _rnd + 45;
-	_pos = [getPos fuego, 3, _rnd] call BIS_Fnc_relPos;
+	_pos = [getPos fuego, 15, _rnd] call BIS_Fnc_relPos;
 //
 	cajaVeh setPos _pos;
 	if (isNil "placementDone") then {if (isMultiplayer) then {{if ((side _x == buenos) or (side _x == civilian)) then {_x setPos getPos petros}} forEach playableUnits} else {stavros setPos (getMarkerPos "respawn_guerrila")}};

@@ -8,22 +8,22 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=2269;
+		nextID=2266;
 	};
 	class MarkerIDProvider
 	{
-		nextID=35;
+		nextID=33;
 	};
 	class LayerIndexProvider
 	{
-		nextID=373;
+		nextID=333;
 	};
 	class Camera
 	{
-		pos[]={1974.818,293.45322,9113.7988};
-		dir[]={-0.70166111,-0.6911847,0.17340311};
-		up[]={-0.67100549,0.72265834,0.16582814};
-		aside[]={0.23993553,1.717839e-006,0.9708569};
+		pos[]={6849.0752,97.650337,2530.7336};
+		dir[]={0.76726598,-0.034773681,0.64043581};
+		up[]={0.026703291,0.99939018,0.022289099};
+		aside[]={0.64082193,-2.1432061e-007,-0.76773244};
 	};
 };
 binarizationWanted=0;
@@ -32,20 +32,15 @@ addons[]=
 	"A3_Characters_F_Exp",
 	"A3_Ui_F",
 	"A3_Weapons_F_Ammoboxes",
-	"ace_rearm",
-	"ace_dragging",
 	"A3_Structures_F_EPC_Civ_InfoBoards",
 	"A3_Modules_F",
 	"A3_Characters_F",
 	"A3_Modules_F_Hc",
 	"A3_Structures_F_Exp_Military_Flags",
-	"ace_cargo",
 	"A3_Structures_F_Mil_Flags",
 	"A3_Ui_F_Exp",
-	"ace_explosives",
 	"A3_Structures_F_Ind_Transmitter_Tower",
 	"A3_Structures_F_EPB_Civ_Camping",
-	"ace_interaction",
 	"A3_Structures_F_EPA_Civ_Constructions",
 	"A3_Structures_F_Civ_Camping",
 	"A3_Structures_F_Mil_Cargo",
@@ -62,8 +57,6 @@ addons[]=
 	"A3_Structures_F_Wrecks",
 	"cba_xeh",
 	"A3_Structures_F_Training",
-	"ace_logistics_wirecutter",
-	"ace_concertina_wire",
 	"A3_Structures_F_Mil_BagFence",
 	"A3_Structures_F_Argo_Military_Fortifications",
 	"A3_Structures_F_Civ_Accessories",
@@ -85,7 +78,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=28;
+		items=21;
 		class Item0
 		{
 			className="A3_Characters_F_Exp";
@@ -109,169 +102,120 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="ace_rearm";
-			name="ACE3 - Rearm";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item4
-		{
-			className="ace_dragging";
-			name="ACE3 - Dragging";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item5
-		{
 			className="A3_Structures_F_EPC";
 			name="Arma 3 Win Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item6
+		class Item4
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item7
+		class Item5
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
+		class Item6
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item9
-		{
-			className="ace_cargo";
-			name="ACE3 - Cargo";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item10
+		class Item7
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item11
+		class Item8
 		{
 			className="A3_Ui_F_Exp";
 			name="Arma 3 Apex - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item12
-		{
-			className="ace_explosives";
-			name="ACE3 - Explosives";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item13
+		class Item9
 		{
 			className="A3_Structures_F_Ind";
 			name="Arma 3 - Industrial Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item14
+		class Item10
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
-		{
-			className="ace_interaction";
-			name="ACE3 - Interaction";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item16
+		class Item11
 		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item17
+		class Item12
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item13
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item14
 		{
 			className="A3_Structures_F_Households";
 			name="Arma 3 - Houses";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item15
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item21
-		{
-			className="ace_logistics_wirecutter";
-			name="ACE3 - Logistics Wire Cutter";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item22
-		{
-			className="ace_concertina_wire";
-			name="ACE3 - Concertina Wire";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item23
+		class Item16
 		{
 			className="A3_Structures_F_Argo";
 			name="Arma 3 Malden - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item17
 		{
 			className="A3_Static_F";
 			name="Arma 3 Alpha - Turrets";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item18
 		{
 			className="CUP_Buildings_Config";
 			name="CUP_Buildings_Config";
 		};
-		class Item26
+		class Item19
 		{
 			className="CUP_Editor_Rocks_Config";
 			name="CUP_Editor_Rocks_Config";
 		};
-		class Item27
+		class Item20
 		{
 			className="CUP_Misc3_Config";
 			name="CUP_Misc3_Config";
@@ -591,7 +535,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=251;
+		items=249;
 		class Item0
 		{
 			dataType="Group";
@@ -678,8 +622,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={1969.6273,284.38211,9115.4697};
-				angles[]={0.041311946,0,6.2538633};
+				position[]={1969.6276,284.38257,9115.4697};
+				angles[]={0.041309625,0,6.253861};
 			};
 			side="Empty";
 			flags=4;
@@ -690,48 +634,10 @@ class Mission
 			};
 			id=5;
 			type="Box_East_AmmoVeh_F";
-			atlOffset=-0.14401245;
+			atlOffset=-0.14355469;
 			class CustomAttributes
 			{
 				class Attribute0
-				{
-					property="ace_repair_editorLoadedTracks";
-					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=30;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_isRepairFacility";
-					expression="_this setVariable ['ace_isRepairFacility',_value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
 				{
 					property="ammoBox";
 					expression="[_this,_value] call bis_fnc_initAmmoBox;";
@@ -750,64 +656,7 @@ class Mission
 						};
 					};
 				};
-				class Attribute3
-				{
-					property="ace_repair_editorLoadedWheels";
-					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=20;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_cargo_size";
-					expression="[_this,_value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=5;
-						};
-					};
-				};
-				nAttributes=6;
+				nAttributes=1;
 			};
 		};
 		class Item4
@@ -1042,7 +891,7 @@ class Mission
 			type="rectangle";
 			a=80;
 			b=80;
-			angle=212.51381;
+			angle=212.51384;
 			id=22;
 			atlOffset=-244.10007;
 		};
@@ -2183,44 +2032,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isMedic";
-							expression="if (_value > -1) then {_this setVariable [""ace_medical_medicClass"", _value, true];};";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"SCALAR"
-										};
-									};
-									value=-1;
-								};
-							};
-						};
-						class Attribute1
-						{
-							property="speaker";
-							expression="_this setspeaker _value;";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"STRING"
-										};
-									};
-									value="male02fre";
-								};
-							};
-						};
-						class Attribute2
-						{
 							property="pitch";
 							expression="_this setpitch _value;";
 							class Value
@@ -2238,7 +2049,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=3;
+						nAttributes=1;
 					};
 				};
 			};
@@ -4921,7 +4732,7 @@ class Mission
 			type="rectangle";
 			a=75;
 			b=50;
-			angle=56.7514;
+			angle=56.751408;
 			id=603;
 			atlOffset=24.626434;
 		};
@@ -15679,58 +15490,6 @@ class Mission
 			id=2265;
 			type="Hanged";
 			atlOffset=96.652008;
-		};
-		class Item249
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={1963.58,284.59845,9123.625};
-				angles[]={0,1.6878033,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="call{this allowDamage false; medic_ace_1 addAction [""Move this asset"", ""moveHQObject.sqf"",nil,0,false,true,"""",""(_this == stavros)""];}";
-				name="medic_ace_1";
-			};
-			id=2266;
-			type="MASH";
-			atlOffset=-0.14801025;
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item250
-		{
-			dataType="Marker";
-			position[]={7333.0771,0.043000001,1433.41};
-			name="marker_34";
-			text="ts3.killahpotatoes.de";
-			type="mil_warning";
-			id=2268;
-			atlOffset=75.112823;
 		};
 	};
 	class Connections

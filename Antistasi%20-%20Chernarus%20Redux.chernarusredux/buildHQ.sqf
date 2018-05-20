@@ -15,6 +15,7 @@ if (isMultiplayer) then
 	{
 	caja hideObjectGlobal false;
 	cajaVeh hideObjectGlobal false;
+	medic_ace_1 hideObjectGlobal false;
 	mapa hideObjectGlobal false;
 	fuego hideObjectGlobal false;
 	bandera hideObjectGlobal false;
@@ -25,6 +26,7 @@ else
 	//sleep 5
 	caja hideObject false;
 	cajaVeh hideObject false;
+	medic_ace_1 hideObject false;	
 	mapa hideObject false;
 	fuego hideObject false;
 	bandera hideObject false;
@@ -47,6 +49,11 @@ _pos = [getPos fuego, 3, _rnd] call BIS_Fnc_relPos;
 bandera setPos _pos;
 _rnd = _rnd + 45;
 _pos = [getPos fuego, 3, _rnd] call BIS_Fnc_relPos;
+//
+medic_ace_1 setPos _pos;
+_rnd = _rnd + 45;
+_pos = [getPos fuego, 3, _rnd] call BIS_Fnc_relPos;
+//
 cajaVeh setPos _pos;
 if (_movido) then {_nul = [] call vaciar};
 petros setBehaviour "SAFE";

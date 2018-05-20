@@ -121,6 +121,10 @@ if (visiblemap) then
 	bandera setPos _pos;
 	_rnd = _rnd + 45;
 	_pos = [getPos fuego, 3, _rnd] call BIS_Fnc_relPos;
+	medic_ace_1 setPos _pos;
+	_rnd = _rnd + 45;
+	_pos = [getPos fuego, 3, _rnd] call BIS_Fnc_relPos;
+//
 	cajaVeh setPos _pos;
 	if (isNil "placementDone") then {if (isMultiplayer) then {{if ((side _x == buenos) or (side _x == civilian)) then {_x setPos getPos petros}} forEach playableUnits} else {stavros setPos (getMarkerPos "respawn_guerrila")}};
 	stavros allowDamage true;
@@ -128,6 +132,7 @@ if (visiblemap) then
 		{
 		caja hideObjectGlobal false;
 		cajaVeh hideObjectGlobal false;
+		medic_ace_1 hideObjectGlobal false;
 		mapa hideObjectGlobal false;
 		fuego hideObjectGlobal false;
 		bandera hideObjectGlobal false;
@@ -136,6 +141,7 @@ if (visiblemap) then
 		{
 		caja hideObject false;
 		cajaVeh hideObject false;
+		medic_ace_1 hideObject false;
 		mapa hideObject false;
 		fuego hideObject false;
 		bandera hideObject false;

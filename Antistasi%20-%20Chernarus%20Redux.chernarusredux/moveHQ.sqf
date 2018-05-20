@@ -13,6 +13,7 @@ if (isMultiplayer) then
 	{
 	caja hideObjectGlobal true;
 	cajaVeh hideObjectGlobal true;
+	medic_ace_1 hideObjectGlobal true;
 	mapa hideObjectGlobal true;
 	fuego hideObjectGlobal true;
 	bandera hideObjectGlobal true;
@@ -21,6 +22,7 @@ else
 	{
 	caja hideObject true;
 	cajaVeh hideObject true;
+	medic_ace_1 hideObjectGlobal true;
 	mapa hideObject true;
 	fuego hideObject true;
 	bandera hideObject true;

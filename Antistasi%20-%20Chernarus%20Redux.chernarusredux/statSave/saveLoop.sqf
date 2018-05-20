@@ -187,7 +187,7 @@ if ((_veh distance getMarkerPos "respawn_guerrila" < 50) and !(_veh in staticsTo
 		_arrayEst pushBack [_tipoVeh,_posVeh,_dirVeh];
 		};
 	};
-} forEach vehicles - [caja,bandera,fuego,cajaveh,mapa];
+} forEach vehicles - [caja,bandera,fuego,cajaveh,medic_ace_1,mapa];
 
 _sitios = marcadores select {lados getVariable [_x,sideUnknown] == buenos};
 {
